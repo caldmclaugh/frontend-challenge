@@ -1,0 +1,176 @@
+body {
+  font-family: "helvetica", sans-serif;
+  font-size: 62.5%;
+
+}
+
+.container {
+  width: 414px;
+  background-color: #f2f2f7;
+}
+
+.nav {
+  display: flex;
+  position:sticky;
+  font-size: 1.25rem;
+  white-space: nowrap;
+  padding-top: 30px;
+}
+
+/*i.fas {
+  display:flex;
+  color: #0a84ff;
+}*/
+.back {
+  color: #0a84ff;
+  display:flex;
+  line-height: 20px;
+  font-size: 1.25rem;
+  padding: 20px 0 0 5px;
+
+}
+
+.back h1 {
+  padding: 0 0 0 5px;
+}
+
+.washington {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+  text-transform:uppercase;
+
+}
+
+h3 {
+  width: 200px;
+  font-size: 1rem;
+  position: relative;
+  left: -60px;
+
+
+}
+
+h4 {
+  width: 125px;
+  font-size: 1rem;
+  white-space: nowrap;
+  position: relative;
+  left: -50px;
+  text-align: right;
+}
+
+/*.hr1 {
+  border: 0.5px solid #d1d1d6;
+}
+
+.hr2 {
+  border: 1px solid #636366;
+
+}*/
+
+.row {
+  padding: 10px 0 10px 0;
+  width: 414px;
+  box-shadow: 0 1px 2px 0 #636366;
+   border-radius: 15px 15px 0 0;
+   margin-bottom: -15px;
+   background-color: #fff;
+}
+.row:hover:hover {
+  background-color:#DDD9FF;
+}
+
+.forward:hover {
+  color: #000;
+}
+
+.eastbound, .northbound, .southbound, .reroute, .out-of-service {
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+  border-radius: 15px 15px 0 0;
+  position:relative;
+  left: 20px;
+  top:20px;
+
+}
+
+.eastbound {
+  color: #fff;
+  background-color: #34c759;
+}
+.northbound {
+  color: #fff;
+  background-color:#ff9500;
+}
+.southbound {
+  color: #fff;
+  background-color: #ff2d55;
+}
+
+.reroute {
+  color: #fff;
+  background-color: #af52de;
+}
+
+.out-of-service {
+  background-color: #aeaeb2;
+}
+
+.forward {
+  display: flex;
+  position: relative;
+  left: 380px;
+  top: 44px;
+  font-size: 1.25rem;
+  color: #aeaeb2;
+  width:20px;
+
+}
+
+
+
+
+
+/*ul {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+li {
+  font-size: 1rem;
+  margin: 5px 0 5px 0;
+}
+*/
+.circle {
+  background: #43c;
+ border-radius: 50%;
+ height: 50px;
+ width: 50px;
+ margin-left: 20px;
+}
+
+.circle-content {
+  color: #fff;
+  float: left;
+  line-height: 1;
+  margin-top: -0.5em;
+  padding-top: 50%;
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+}
+
+
+.row {
+  display:inline-block;
+  column-count:3;
+  line-height: 50px;
+
+
+}

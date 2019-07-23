@@ -17,10 +17,6 @@ body {
   padding-top: 30px;
 }
 
-/*i.fas {
-  display:flex;
-  color: #0a84ff;
-}*/
 .back {
   color: #0a84ff;
   display:flex;
@@ -62,15 +58,6 @@ h4 {
   left: -50px;
   text-align: right;
 }
-
-/*.hr1 {
-  border: 0.5px solid #d1d1d6;
-}
-
-.hr2 {
-  border: 1px solid #636366;
-
-}*/
 
 .row {
   padding: 10px 0 10px 0;
@@ -132,21 +119,6 @@ h4 {
 
 }
 
-
-
-
-
-/*ul {
-  display: inline-block;
-  padding: 10px;
-
-}
-
-li {
-  font-size: 1rem;
-  margin: 5px 0 5px 0;
-}
-*/
 .circle {
   background: #43c;
  border-radius: 50%;

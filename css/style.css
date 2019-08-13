@@ -91,7 +91,7 @@ span {
 .sixty {
   background-color: #d1d1d6;
 }
-.list {
+.list,.inactive {
   overflow-y:scroll;
   height:50vh;
 }
@@ -109,9 +109,7 @@ span {
 .inbetween {
   justify-content: space-between;
 }
-.out-of-service {
-  color: #c7c7cc;
-}
+
 .circle {
   background: #007aff;
   border-radius: 50%;
@@ -121,5 +119,8 @@ span {
 }
 ul:hover {
   background-color: #d1d1d6;
-
+}
+.inactive {
+  pointer-events: none;
+  opacity: .5;
 }

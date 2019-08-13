@@ -85,6 +85,9 @@ span {
   text-align: center;
   padding: 2.875vh 1.5vh;
 }
+.container {
+  margin: 0 auto;
+}
 .sixty {
   background-color: #d1d1d6;
 }
@@ -95,6 +98,9 @@ span {
 .border {
   border-bottom: solid 0.2vh #c7c7cc;
 }
+.reroute {
+  color: #ff3b30;
+}
 .reroute-flex {
   display:flex;
   align-items: center;
@@ -102,6 +108,9 @@ span {
 }
 .inbetween {
   justify-content: space-between;
+}
+.out-of-service {
+  color: #c7c7cc;
 }
 .circle {
   background: #007aff;
